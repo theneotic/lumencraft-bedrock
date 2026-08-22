@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "honey_bottle",
+    "metalness_emissive_roughness": "honey_bottle_mer",
+    "normal": "honey_bottle_normal"
+  }
+}

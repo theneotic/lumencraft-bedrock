@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "water_still",
+    "metalness_emissive_roughness": "lc_water_still_mer"
+  }
+}

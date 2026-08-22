@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "missing_tile",
+    "metalness_emissive_roughness": "lc_missing_tile_mer",
+    "normal": "lc_missing_tile_normal"
+  }
+}

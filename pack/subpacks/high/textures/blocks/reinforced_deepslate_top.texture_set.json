@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "reinforced_deepslate_top",
+    "metalness_emissive_roughness": "lc_reinforced_deepslate_top_mer",
+    "normal": "lc_reinforced_deepslate_top_normal"
+  }
+}

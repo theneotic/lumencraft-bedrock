@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "cauldron_water",
+    "metalness_emissive_roughness": "lc_cauldron_water_mer",
+    "normal": "lc_cauldron_water_normal"
+  }
+}

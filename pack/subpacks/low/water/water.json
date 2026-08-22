@@ -1,0 +1,35 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "lumencraft:low_dream_water"
+    },
+    "particle_concentrations": {
+      "cdom": 0.55,
+      "chlorophyll": 0.18,
+      "suspended_sediment": 0.12
+    },
+    "waves": {
+      "enabled": true,
+      "depth": 0.25,
+      "frequency": 0.75,
+      "frequency_scaling": 1.05,
+      "mix": 0.12,
+      "octaves": 4,
+      "pull": 0.15,
+      "sampleWidth": 0.18,
+      "shape": 1.15,
+      "speed": 0.65,
+      "speed_scaling": 1.01,
+      "direction_increment": 82.0
+    },
+    "caustics": {
+      "enabled": true,
+      "frame_length": 0.14,
+      "power": 1,
+      "scale": 0.8,
+      "texture": "textures/caustics/lumencraft_caustics"
+    },
+    "biome_water_color_contribution": 0.24
+  }
+}

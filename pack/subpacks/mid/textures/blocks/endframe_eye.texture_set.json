@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "endframe_eye",
+    "metalness_emissive_roughness": "lc_endframe_eye_mer",
+    "normal": "lc_endframe_eye_normal"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "wood_pickaxe",
+    "metalness_emissive_roughness": "wood_pickaxe_mer",
+    "normal": "wood_pickaxe_normal"
+  }
+}

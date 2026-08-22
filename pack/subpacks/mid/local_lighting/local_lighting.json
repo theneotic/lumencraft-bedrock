@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:local_light_settings": {
+    "minecraft:torch": {
+      "light_color": "#FFFFB45C",
+      "light_type": "point_light"
+    },
+    "minecraft:lantern": {
+      "light_color": "#FFFFBE6C",
+      "light_type": "point_light"
+    },
+    "minecraft:soul_torch": {
+      "light_color": "#FF64BEFF",
+      "light_type": "static_light"
+    },
+    "minecraft:soul_lantern": {
+      "light_color": "#FF64BEFF",
+      "light_type": "static_light"
+    },
+    "minecraft:redstone_torch": {
+      "light_color": "#FFFF4B23",
+      "light_type": "static_light"
+    },
+    "minecraft:glowstone": {
+      "light_color": "#FFFFCD78",
+      "light_type": "static_light"
+    },
+    "minecraft:sea_lantern": {
+      "light_color": "#FF73E1FF",
+      "light_type": "static_light"
+    },
+    "minecraft:amethyst_block": {
+      "light_color": "#FFB969FF",
+      "light_type": "static_light"
+    },
+    "minecraft:end_rod": {
+      "light_color": "#FFD2EBFF",
+      "light_type": "static_light"
+    }
+  }
+}

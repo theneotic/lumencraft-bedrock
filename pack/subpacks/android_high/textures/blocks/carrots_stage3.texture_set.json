@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "carrots_stage3",
+    "metalness_emissive_roughness": "lc_carrots_stage3_mer",
+    "normal": "lc_carrots_stage3_normal"
+  }
+}

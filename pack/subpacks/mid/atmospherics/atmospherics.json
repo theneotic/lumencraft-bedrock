@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "lumencraft:mid_dream_atmosphere"
+    },
+    "horizon_blend_stops": {
+      "min": 0.0,
+      "start": 0.2,
+      "mie_start": 0.42,
+      "max": 0.82
+    },
+    "rayleigh_strength": 0.7,
+    "sun_mie_strength": 0.68,
+    "moon_mie_strength": 0.26,
+    "sun_glare_shape": 11.0,
+    "sky_zenith_color": [
+      5,
+      30,
+      82
+    ],
+    "sky_horizon_color": [
+      45,
+      178,
+      232
+    ]
+  }
+}

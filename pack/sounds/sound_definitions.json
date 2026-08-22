@@ -1,0 +1,53 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "lumencraft.aurora_ambience": {
+      "category": "ambient",
+      "min_distance": 4.0,
+      "max_distance": 32.0,
+      "sounds": [
+        {
+          "name": "sounds/lumencraft/aurora_ambience",
+          "stream": true,
+          "volume": 0.34
+        }
+      ]
+    },
+    "lumencraft.aurora_chime": {
+      "category": "ambient",
+      "min_distance": 2.0,
+      "max_distance": 24.0,
+      "sounds": [
+        {
+          "name": "sounds/lumencraft/aurora_chime_accent",
+          "stream": false,
+          "volume": 0.42
+        }
+      ]
+    },
+    "lumencraft.rain_ambience": {
+      "category": "weather",
+      "min_distance": 4.0,
+      "max_distance": 40.0,
+      "sounds": [
+        {
+          "name": "sounds/lumencraft/rain_weather_ambience",
+          "stream": true,
+          "volume": 0.30
+        }
+      ]
+    },
+    "lumencraft.thunder_roll": {
+      "category": "weather",
+      "min_distance": 8.0,
+      "max_distance": 96.0,
+      "sounds": [
+        {
+          "name": "sounds/lumencraft/thunder_roll_accent",
+          "stream": true,
+          "volume": 0.40
+        }
+      ]
+    }
+  }
+}

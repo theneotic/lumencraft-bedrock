@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "cobblestone_mossy",
+    "metalness_emissive_roughness": "lc_cobblestone_mossy_mer",
+    "normal": "lc_cobblestone_mossy_normal"
+  }
+}

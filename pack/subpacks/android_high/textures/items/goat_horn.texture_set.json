@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "goat_horn",
+    "metalness_emissive_roughness": "goat_horn_mer",
+    "normal": "goat_horn_normal"
+  }
+}

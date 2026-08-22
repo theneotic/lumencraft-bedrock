@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:cubemap_settings": {
+    "description": {
+      "identifier": "lumencraft:low_dream_cubemap"
+    },
+    "lighting": {
+      "ambient_light_illuminance": {
+        "0.0": 4.0,
+        "0.5": 2.0,
+        "1.0": 4.0
+      },
+      "sky_light_contribution": 0.92,
+      "directional_light_contribution": 0.72,
+      "affected_by_atmospheric_scattering": true,
+      "affected_by_volumetric_scattering": false
+    }
+  }
+}

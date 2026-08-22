@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "soul_fire_0",
+    "metalness_emissive_roughness": "lc_soul_fire_0_mer",
+    "normal": "lc_soul_fire_0_normal"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "flint",
+    "metalness_emissive_roughness": "flint_mer",
+    "normal": "flint_normal"
+  }
+}

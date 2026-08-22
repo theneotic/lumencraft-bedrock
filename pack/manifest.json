@@ -1,0 +1,55 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LumenCraft Luminous Dreams — Android Visual Pack",
+    "description": "Selectable Low, Balanced, and High Graphics resource pack with PBR, luminous skies, water caustics, moonlight, weather, and fireflies.",
+    "uuid": "71dd94f8-eb3f-4559-aa39-bc471f3423d9",
+    "version": [
+      5,
+      5,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "description": "LumenCraft Android resource module",
+      "type": "resources",
+      "uuid": "c692eba5-d330-4010-a82c-951dcb5b706c",
+      "version": [
+        5,
+        5,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "subpacks": [
+    {
+      "folder_name": "low",
+      "name": "Low Performance",
+      "memory_performance_tier": 1
+    },
+    {
+      "folder_name": "mid",
+      "name": "Balanced Performance",
+      "memory_performance_tier": 2
+    },
+    {
+      "folder_name": "android_high",
+      "name": "High-Compatible Android",
+      "memory_performance_tier": 2
+    },
+    {
+      "folder_name": "high",
+      "name": "High Graphics",
+      "memory_performance_tier": 5
+    }
+  ]
+}

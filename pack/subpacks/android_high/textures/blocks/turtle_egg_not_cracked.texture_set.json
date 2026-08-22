@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "turtle_egg_not_cracked",
+    "metalness_emissive_roughness": "lc_turtle_egg_not_cracked_mer",
+    "normal": "lc_turtle_egg_not_cracked_normal"
+  }
+}

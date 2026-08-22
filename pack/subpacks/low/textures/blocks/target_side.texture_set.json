@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "target_side",
+    "metalness_emissive_roughness": "lc_target_side_mer"
+  }
+}

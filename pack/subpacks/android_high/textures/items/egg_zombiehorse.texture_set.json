@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "egg_zombiehorse",
+    "metalness_emissive_roughness": "egg_zombiehorse_mer",
+    "normal": "egg_zombiehorse_normal"
+  }
+}

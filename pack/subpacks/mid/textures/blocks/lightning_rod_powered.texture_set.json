@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "lightning_rod_powered",
+    "metalness_emissive_roughness": "lc_lightning_rod_powered_mer",
+    "normal": "lc_lightning_rod_powered_normal"
+  }
+}

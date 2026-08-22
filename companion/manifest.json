@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "LumenCraft Luminous Dreams — Visual Effects Companion",
+    "description": "Optional particles, weather audio, aurora, wind, leaves, dust, and nocturnal fireflies.",
+    "uuid": "a514cd64-1b1e-46f7-bec3-e38cdcca3dad",
+    "version": [
+      7,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "description": "LumenCraft particle and weather script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "f8beb4a6-0e59-40f7-96bd-437ba11e9a8d",
+      "version": [
+        7,
+        2,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "71dd94f8-eb3f-4559-aa39-bc471f3423d9",
+      "version": [
+        5,
+        5,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

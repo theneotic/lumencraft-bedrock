@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "respawn_anchor_top_off",
+    "metalness_emissive_roughness": "lc_respawn_anchor_top_off_mer"
+  }
+}

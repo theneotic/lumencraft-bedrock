@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "melon_top",
+    "metalness_emissive_roughness": "lc_melon_top_mer"
+  }
+}

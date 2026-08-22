@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "coral_fan_yellow",
+    "metalness_emissive_roughness": "lc_coral_fan_yellow_mer"
+  }
+}
