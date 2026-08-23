@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose the Installer by Goal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #061526; color: #effaff; font-family: Arial, Helvetica, sans-serif; position: relative; }
+    .header { padding: 58px 82px 0; display: flex; align-items: baseline; justify-content: space-between; }
+    .kicker { color: #78e7ef; font-size: 14px; font-weight: 700; letter-spacing: 2.6px; margin-bottom: 13px; }
+    h1 { font-size: 38px; letter-spacing: -0.6px; line-height: 1.08; }
+    .header-note { color: #a8bfcb; font-size: 17px; max-width: 410px; line-height: 1.35; }
+    /* Reduced vertical spacing to avoid overflow */
+    .matrix { margin: 46px 82px 0; width: 1116px; border-top: 2px solid #59dbe6; border-bottom: 1px solid rgba(119,220,231,.35); }
+    .row { display: grid; grid-template-columns: 242px 290px 290px 294px; min-height: 78px; border-top: 1px solid rgba(133,190,205,.23); }
+    .row:first-child { min-height: 68px; border-top: 0; }
+    .cell { padding: 19px 18px; font-size: 16px; line-height: 1.34; color: #b5cad5; }
+    .row.head .cell { color: #77e5ed; font-size: 14px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; padding-top: 22px; }
+    .label { color: #effaff; font-weight: 700; }
+    .type { display: inline-block; color: #061526; background: #6ce4ec; font-size: 14px; font-weight: 800; letter-spacing: .8px; padding: 4px 8px; margin-bottom: 6px; }
+    .type.gold { background: #f0c770; }
+    .type.dim { background: #3e7891; color: #effaff; }
+    .good { color: #77e5ed; font-weight: 700; }
+    .warn { color: #f0c770; font-weight: 700; }
+    /* Slightly tighter recommendation block spacing */
+    .recommendation { margin: 32px 82px 0; width: 1116px; min-height: 122px; background: linear-gradient(90deg, #0c3148, #0b2238); display: flex; align-items: center; }
+    .recommendation .lead { width: 265px; padding-left: 28px; color: #f0c770; font-size: 15px; font-weight: 800; letter-spacing: 1.8px; }
+    .recommendation .choice { width: 398px; padding-left: 20px; border-left: 1px solid rgba(109,230,238,.38); }
+    .choice b { display: block; color: #effaff; font-size: 19px; margin-bottom: 5px; }
+    .choice span { color: #b1c8d3; font-size: 15px; line-height: 1.28; }
+    .source { position: absolute; left: 82px; bottom: 31px; color: #7f9cae; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="header">
+      <div>
+        <div class="kicker">INSTALLATION GUIDE</div>
+        <h1>Choose the Installer by Goal</h1>
+      </div>
+      <p class="header-note">The extension tells Minecraft whether it is importing one pack or a resource-and-behavior bundle.</p>
+    </div>
+
+    <div class="matrix">
+      <div class="row head"><div class="cell">Installer</div><div class="cell">What it contains</div><div class="cell">Where it is activated</div><div class="cell">Best use</div></div>
+      <div class="row">
+        <div class="cell"><span class="type">RESOURCE .MCPACK</span><div class="label">Direct visual pack</div></div>
+        <div class="cell">One resource pack with a root-level <span class="good">manifest.json</span>.</div>
+        <div class="cell">World Settings → <span class="good">Resource Packs</span>.</div>
+        <div class="cell">Safest first Android test when validating visuals and import behavior.</div>
+      </div>
+      <div class="row">
+        <div class="cell"><span class="type dim">COMPANION .MCPACK</span><div class="label">Behavior / script pack</div></div>
+        <div class="cell">One Script API behavior pack for automated particles and audio playback.</div>
+        <div class="cell">World Settings → <span class="good">Behavior Packs</span>.</div>
+        <div class="cell">Use only alongside its matching resource build and version.</div>
+      </div>
+      <div class="row">
+        <div class="cell"><span class="type gold">COMPLETE .MCADDON</span><div class="label">Combined installer</div></div>
+        <div class="cell">Two inner packs: one resource `.mcpack` plus one companion `.mcpack`.</div>
+        <div class="cell">Open directly with Minecraft; activate the imported resource and behavior packs in the world.</div>
+        <div class="cell"><span class="warn">Best all-in-one experience.</span> Never rename an `.mcaddon` to `.mcpack`.</div>
+      </div>
+    </div>
+
+    <div class="recommendation">
+      <div class="lead">FINAL RELEASE<br>CHOICES</div>
+      <div class="choice"><b>LumenCraft_FINAL_Direct_Import.mcpack</b><span>Use first for a clean, root-manifest resource-only import.</span></div>
+      <div class="choice"><b>LumenCraft_FINAL_Complete.mcaddon</b><span>Use for sky, underwater, particles, ambient audio, and companion automation together.</span></div>
+    </div>
+    <div class="source">Source: verified LumenCraft release notes and final `[5, 13, 1]` package metadata</div>
+  </div>
+</body>
+</html>

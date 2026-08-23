@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>From PBR Prototype to Final Build</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #061526; color: #effaff; font-family: Arial, Helvetica, sans-serif; position: relative; }
+    .header { padding: 58px 82px 0; display: flex; justify-content: space-between; align-items: flex-start; }
+    h1 { font-size: 36px; letter-spacing: -0.5px; font-weight: 750; }
+    .kicker { color: #75e2ed; font-size: 14px; letter-spacing: 2.7px; font-weight: 700; margin-bottom: 12px; }
+    .evidence { display: flex; gap: 32px; color: #b7cbd7; font-size: 15px; padding-top: 9px; }
+    .evidence strong { color: #f0c770; font-size: 26px; display: block; line-height: 1.1; }
+    .timeline-zone { margin: 90px 82px 0; height: 390px; position: relative; }
+    .line { position: absolute; top: 185px; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #2bbfd1, #6eeaf0 65%, #f0c770); }
+    .stages { display: flex; justify-content: space-between; position: relative; height: 100%; }
+    .stage { width: 148px; position: relative; }
+    .stage:nth-child(odd) { padding-top: 0; }
+    .stage:nth-child(even) { padding-top: 222px; }
+    .stage:nth-child(odd)::after, .stage:nth-child(even)::after { content: ""; position: absolute; left: 0; width: 1px; height: 59px; background: rgba(107,232,240,.6); }
+    .stage:nth-child(odd)::after { top: 126px; }
+    .stage:nth-child(even)::after { top: 185px; }
+    .node { position: absolute; top: 174px; left: -8px; width: 20px; height: 20px; border: 4px solid #061526; border-radius: 50%; background: #60e5ed; }
+    .stage:last-child .node { background: #f0c770; }
+    .order { color: #78e7ef; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; margin-bottom: 8px; }
+    .stage h2 { font-size: 20px; line-height: 1.12; font-weight: 700; margin-bottom: 9px; }
+    .stage p { color: #a9bfcb; font-size: 14px; line-height: 1.32; }
+    .source { position: absolute; left: 82px; bottom: 35px; color: #7f9cae; font-size: 13px; }
+    .accent-rule { position: absolute; left: 82px; bottom: 71px; width: 235px; height: 2px; background: #f0c770; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="header">
+      <div>
+        <div class="kicker">RELEASE ARC</div>
+        <h1>From PBR Prototype to Final Build</h1>
+      </div>
+      <div class="evidence"><div><strong>66</strong>published archives</div><div><strong>67</strong>separate commits</div><div><strong>7</strong>major evolution stages</div></div>
+    </div>
+    <div class="timeline-zone">
+      <div class="line"></div>
+      <div class="stages">
+        <section class="stage"><div class="node"></div><div class="order">01</div><h2>PBR starter</h2><p>Material structure, direct import, and a first particle companion.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">02</div><h2>HD expansion</h2><p>Higher-detail blocks, items, tools, and armor.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">03</div><h2>Luminous Dreams</h2><p>Atmosphere, lighting, PBR direction, and behavior effects.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">04</div><h2>Nature & audio</h2><p>Aurora, weather audio, leaves, dust, fireflies, and night water.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">05</div><h2>Android track</h2><p>Selectable profiles, strict manifests, and High-Compatible packaging.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">06</div><h2>Underwater focus</h2><p>Spectral water, caustics, sunbeams, bioluminescence, and ambience.</p></section>
+        <section class="stage"><div class="node"></div><div class="order">07</div><h2>Final direct import</h2><p>Fresh UUIDs, root manifest, revised sky, and consolidated features.</p></section>
+      </div>
+    </div>
+    <div class="accent-rule"></div><div class="source">Source: verified LumenCraft release inventory and RELEASE_NOTES.md</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LumenCraft Bedrock Release Overview</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: radial-gradient(circle at 80% 32%, #114b6b 0%, #08283f 25%, #061526 62%, #040b17 100%); color: #f3fbff; font-family: Arial, Helvetica, sans-serif; display: flex; flex-direction: column; position: relative; }
+    .topline { height: 8px; width: 100%; background: linear-gradient(90deg, #35d5e5 0%, #35d5e5 43%, #f0c770 43%, #f0c770 48%, transparent 48%); }
+    .content { display: flex; flex: 1; align-items: center; padding: 0 108px; position: relative; }
+    .left { width: 67%; z-index: 2; }
+    .eyebrow { color: #76e7ef; letter-spacing: 4px; font-size: 15px; font-weight: 700; margin-bottom: 22px; }
+    h1 { font-size: 63px; line-height: 1.05; letter-spacing: -1.5px; font-weight: 750; max-width: 760px; }
+    .accent { color: #7ceff4; }
+    .subtitle { color: #b6c9d5; font-size: 24px; line-height: 1.4; max-width: 650px; margin-top: 25px; }
+    .footer { color: #8aa6b8; font-size: 15px; letter-spacing: .4px; margin-top: 42px; }
+    .rings { position: absolute; right: 110px; top: 122px; width: 440px; height: 440px; border: 1px solid rgba(107,235,241,.42); border-radius: 50%; }
+    .rings::before, .rings::after { content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(107,235,241,.25); }
+    .rings::before { inset: 54px; }
+    .rings::after { inset: 115px; border-color: rgba(240,199,112,.65); }
+    .beam { position: absolute; right: 0; bottom: 105px; width: 645px; height: 2px; background: linear-gradient(90deg, transparent, #45d8e7 45%, #f0c770 100%); transform: rotate(-18deg); opacity: .82; }
+    .dot { position: absolute; right: 323px; top: 332px; width: 15px; height: 15px; border-radius: 50%; background: #f0c770; box-shadow: 0 0 24px 5px rgba(240,199,112,.45); }
+    .corner { position: absolute; bottom: 47px; right: 108px; color: #72dfe9; font-size: 16px; font-weight: 700; letter-spacing: 1.6px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="topline"></div>
+    <div class="content">
+      <section class="left">
+        <div class="eyebrow">MINECRAFT BEDROCK · RELEASE ARCHIVE</div>
+        <h1>LumenCraft<br><span class="accent">Release Overview</span></h1>
+        <p class="subtitle">From PBR prototype to a final Android-focused visual pack with sky, underwater, particles, audio, and compatibility repairs.</p>
+        <p class="footer">Verified against the published LumenCraft release archive</p>
+      </section>
+      <div class="rings"></div>
+      <div class="beam"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="corner">66 ARCHIVES · 67 PUBLISHING COMMITS</div>
+  </div>
+</body>
+</html>

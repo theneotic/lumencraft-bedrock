@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reliability Work Removed the Biggest Failure Modes</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #061526; color: #effaff; font-family: Arial, Helvetica, sans-serif; position: relative; }
+    .header { display: flex; justify-content: space-between; align-items: flex-start; padding: 57px 82px 0; }
+    .kicker { color: #78e7ef; font-size: 14px; letter-spacing: 2.7px; font-weight: 700; margin-bottom: 13px; }
+    h1 { font-size: 38px; line-height: 1.1; letter-spacing: -0.5px; font-weight: 750; }
+    .headline-note { width: 315px; color: #adc3cf; font-size: 17px; line-height: 1.4; padding-top: 11px; }
+    .headline-note strong { color: #f0c770; }
+    .matrix { margin: 56px 82px 0; width: 1116px; }
+    .labels { display: grid; grid-template-columns: 31% 42% 27%; color: #76e5ee; font-size: 14px; letter-spacing: 2.2px; font-weight: 700; padding-bottom: 15px; }
+    .row { display: grid; grid-template-columns: 31% 42% 27%; min-height: 86px; border-top: 1px solid rgba(122, 220, 230, .25); align-items: center; }
+    .problem { color: #eef8fb; font-size: 19px; font-weight: 700; padding-right: 34px; }
+    .fix { color: #b7cbd7; font-size: 16px; line-height: 1.34; padding-right: 34px; }
+    .result { color: #d5f9fb; font-size: 16px; line-height: 1.32; font-weight: 700; }
+    .mark { display: inline-block; width: 10px; height: 10px; background: #f0c770; margin-right: 12px; }
+    .final-row { border-bottom: 1px solid rgba(122, 220, 230, .25); }
+    .footer-rule { position: absolute; left: 82px; bottom: 66px; width: 260px; height: 2px; background: #f0c770; }
+    .source { position: absolute; left: 82px; bottom: 32px; color: #7f9cae; font-size: 13px; }
+    .status { position: absolute; right: 82px; bottom: 32px; color: #73dfea; font-size: 13px; letter-spacing: 1.4px; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <header class="header">
+      <div>
+        <div class="kicker">RELIABILITY MILESTONES</div>
+        <h1>Reliability Work Removed the Biggest Failure Modes</h1>
+      </div>
+      <p class="headline-note"><strong>Later versions were not only prettier.</strong> They were repackaged and repaired around Android import behavior and Bedrock schema changes.</p>
+    </header>
+    <main class="matrix">
+      <div class="labels"><div>FAILURE MODE</div><div>REPAIR</div><div>RESULT</div></div>
+      <section class="row">
+        <div class="problem"><span class="mark"></span>Lighting and particle errors</div>
+        <div class="fix">Normalized lighting color structures, restored required fields, and corrected particle initial-speed arrays.</div>
+        <div class="result">Fewer schema-level parse failures in the later underwater builds.</div>
+      </section>
+      <section class="row">
+        <div class="problem"><span class="mark"></span>Unknown pack / 0.0.0 metadata</div>
+        <div class="fix">Rebuilt strict root manifests with numeric versions, fresh UUIDs, and unmistakable direct-import filenames.</div>
+        <div class="result">Final resource pack is designed for a direct Android import path.</div>
+      </section>
+      <section class="row">
+        <div class="problem"><span class="mark"></span>Broken rain, sun, and noisy water</div>
+        <div class="fix">Removed problematic weather overrides, rebuilt the round sun asset, softened caustics, and reduced glare/wave aggression.</div>
+        <div class="result">Clean Realism became the stable baseline for subsequent maximum-quality work.</div>
+      </section>
+      <section class="row final-row">
+        <div class="problem"><span class="mark"></span>Version-sensitive UI and profile gates</div>
+        <div class="fix">Avoided unstable settings-screen injection, introduced strict Android packaging, and offered both High-Compatible and unrestricted variants.</div>
+        <div class="result">Users can choose reliability-first or maximum-quality installation paths.</div>
+      </section>
+    </main>
+    <div class="footer-rule"></div>
+    <div class="source">Source: LumenCraft release notes — Clean Realism through FINAL release families</div>
+    <div class="status">REPAIRS → PACKAGING → FINAL DIRECT IMPORT</div>
+  </div>
+</body>
+</html>

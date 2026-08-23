@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Android Compatibility Became a First-Class Track</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #061526; color: #effaff; font-family: Arial, Helvetica, sans-serif; display: flex; position: relative; }
+    .left { width: 395px; padding: 76px 0 0 82px; }
+    .kicker { color: #78e7ef; font-size: 14px; letter-spacing: 2.7px; font-weight: 700; margin-bottom: 15px; }
+    h1 { font-size: 38px; line-height: 1.09; letter-spacing: -0.5px; max-width: 285px; }
+    .lead { color: #b7cbd7; font-size: 19px; line-height: 1.43; width: 280px; margin-top: 26px; }
+    .metric { margin-top: 44px; border-top: 2px solid #f0c770; width: 278px; padding-top: 16px; }
+    .metric strong { color: #f0c770; font-size: 31px; display: block; line-height: 1; }
+    .metric span { color: #91acbb; font-size: 15px; line-height: 1.32; display: block; margin-top: 7px; }
+    .flow { width: 748px; margin: 103px 0 0 45px; position: relative; }
+    .flow-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 29px; }
+    .flow-head h2 { font-size: 22px; color: #e9faff; }
+    .flow-head span { font-size: 13px; color: #78e7ef; letter-spacing: 1.6px; font-weight: 700; }
+    .step-row { display: flex; align-items: stretch; height: 390px; }
+    .step { width: 175px; position: relative; display: flex; flex-direction: column; justify-content: flex-end; padding: 0 18px 24px; }
+    .step::after { content: ""; position: absolute; top: 0; right: -1px; width: 1px; height: 100%; background: rgba(126,223,235,.36); }
+    .s1 { height: 232px; margin-top: 158px; background: #0c425c; }
+    .s2 { height: 282px; margin-top: 108px; background: #105b76; }
+    .s3 { height: 332px; margin-top: 58px; background: #13788e; }
+    .s4 { height: 390px; background: #1ca0ad; color: #042034; }
+    .number { position: absolute; top: 18px; left: 18px; font-size: 14px; letter-spacing: 2px; font-weight: 800; color: #83e8ef; }
+    .s4 .number { color: #f8f1d5; }
+    .step h3 { font-size: 22px; line-height: 1.08; margin-bottom: 12px; }
+    .step p { font-size: 14px; line-height: 1.36; color: #c0d8e1; }
+    .s4 p { color: #073244; }
+    .goldline { width: 100%; height: 5px; background: #f0c770; margin-top: 26px; }
+    .source { position: absolute; left: 82px; bottom: 35px; color: #7f9cae; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <div class="kicker">ANDROID COMPATIBILITY</div>
+      <h1>Android Compatibility Became a First-Class Track</h1>
+      <p class="lead">The project shifted from visual experimentation toward reliable import paths, explicit device budgets, and cache-resistant packaging.</p>
+      <div class="metric"><strong>≈32 px</strong><span>maximum active texture width in the High-Compatible Android profile—built to reduce GPU texture pressure without abandoning the high-style direction.</span></div>
+    </section>
+    <section class="flow">
+      <div class="flow-head"><h2>From selectable profiles to a safe direct test path</h2><span>PROFILE → PACKAGE → IMPORT</span></div>
+      <div class="step-row">
+        <article class="step s1"><div class="number">01</div><h3>Selectable profiles</h3><p>Low, Mid, and High choices exposed the performance trade-off instead of assuming one device class.</p></article>
+        <article class="step s2"><div class="number">02</div><h3>Strict manifests</h3><p>Numeric version arrays, root manifests, and matched resource/behavior dependencies addressed Android import failures.</p></article>
+        <article class="step s3"><div class="number">03</div><h3>High-Compatible</h3><p>A reduced active-texture budget preserved the visual identity where full High Graphics was rejected.</p></article>
+        <article class="step s4"><div class="number">04</div><h3>Final direct import</h3><p>Fresh UUIDs and a root-level resource manifest created the safest first test when stale downloads caused zero-ID pack errors.</p></article>
+      </div>
+      <div class="goldline"></div>
+    </section>
+    <div class="source">Source: LumenCraft Android Strict, High-Compatible, Clean Realism, and Final release families</div>
+  </div>
+</body>
+</html>

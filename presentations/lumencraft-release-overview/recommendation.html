@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Final Decision Is Simple</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: radial-gradient(circle at 83% 15%, #123d55 0%, #071a2a 34%, #040b17 80%); color: #effaff; font-family: Arial, Helvetica, sans-serif; position: relative; }
+    .topline { width: 100%; height: 8px; background: linear-gradient(90deg, #36d4e3 0%, #36d4e3 70%, #f0c770 70%, #f0c770 100%); }
+    .heading { padding: 72px 82px 0; width: 720px; }
+    .kicker { color: #78e7ef; font-size: 14px; letter-spacing: 2.8px; font-weight: 700; margin-bottom: 16px; }
+    h1 { font-size: 51px; line-height: 1.03; letter-spacing: -1.2px; }
+    .lead { color: #b8cbd6; font-size: 21px; line-height: 1.42; margin-top: 24px; width: 625px; }
+    .lead strong { color: #f0c770; }
+    .route { position: absolute; left: 82px; right: 82px; top: 392px; height: 190px; display: flex; align-items: flex-start; }
+    .route-line { position: absolute; top: 39px; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #65e5ed, #42cdd8 56%, #f0c770); }
+    .step { width: 32%; position: relative; z-index: 1; }
+    .step:nth-child(3) { margin-left: 2%; }
+    .step:nth-child(4) { margin-left: 2%; }
+    .node { width: 24px; height: 24px; border-radius: 50%; border: 5px solid #061526; background: #65e5ed; margin-bottom: 22px; }
+    .step.final .node { background: #f0c770; }
+    .label { color: #75e4ec; font-size: 13px; font-weight: 800; letter-spacing: 1.8px; margin-bottom: 8px; }
+    .step h2 { font-size: 22px; line-height: 1.15; margin-bottom: 9px; max-width: 325px; }
+    .step p { color: #acc2ce; font-size: 15px; line-height: 1.34; max-width: 318px; }
+    .file { color: #f0c770; font-size: 14px; font-weight: 700; margin-top: 10px; line-height: 1.22; max-width: 328px; }
+    .footer { position: absolute; left: 82px; bottom: 39px; color: #7d9aab; font-size: 13px; }
+    .mark { position: absolute; right: 87px; top: 105px; color: rgba(101,229,237,.14); font-size: 145px; font-weight: 800; line-height: 1; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="topline"></div>
+    <div class="heading">
+      <div class="kicker">CLOSING RECOMMENDATION</div>
+      <h1>The Final Decision<br>Is Simple</h1>
+      <p class="lead">Start with the direct resource pack. Move to the complete addon for automated effects. Keep the Android High-Compatible edition when <strong>GPU headroom</strong> matters more than maximum detail.</p>
+    </div>
+    <div class="mark">LC</div>
+    <section class="route">
+      <div class="route-line"></div>
+      <div class="step">
+        <div class="node"></div>
+        <div class="label">01 · SAFE TEST</div>
+        <h2>Confirm the resource import</h2>
+        <p>Use the direct archive first when Android has previously opened a stale or renamed file.</p>
+        <div class="file">LumenCraft_FINAL_Direct_Import.mcpack</div>
+      </div>
+      <div class="step final">
+        <div class="node"></div>
+        <div class="label">02 · FULL EXPERIENCE</div>
+        <h2>Enable the complete experience</h2>
+        <p>Use the combined installer for companion-driven particles, dust motes, ambience, and behavior effects.</p>
+        <div class="file">LumenCraft_FINAL_Complete.mcaddon</div>
+      </div>
+      <div class="step">
+        <div class="node"></div>
+        <div class="label">03 · PERFORMANCE FALLBACK</div>
+        <h2>Choose High-Compatible on constrained devices</h2>
+        <p>Retain the high-style direction while reducing the active texture and rendering budget.</p>
+        <div class="file">LumenCraft_Android_High_Compatible_Complete.mcaddon</div>
+      </div>
+    </section>
+    <div class="footer">Source: verified LumenCraft release inventory · final resource version [5, 13, 1]</div>
+  </div>
+</body>
+</html>

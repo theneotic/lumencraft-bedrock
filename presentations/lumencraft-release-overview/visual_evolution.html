@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Visual Stack Expanded Layer by Layer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #061526; color: #effaff; font-family: Arial, Helvetica, sans-serif; display: flex; position: relative; }
+    .intro { width: 390px; padding: 84px 0 0 82px; }
+    .kicker { color: #78e7ef; font-size: 14px; letter-spacing: 2.7px; font-weight: 700; margin-bottom: 15px; }
+    h1 { font-size: 39px; line-height: 1.08; letter-spacing: -0.6px; }
+    .thesis { margin-top: 27px; color: #b7cbd7; font-size: 20px; line-height: 1.44; width: 274px; }
+    .thesis strong { color: #f0c770; }
+    .small-rule { width: 92px; height: 3px; background: #f0c770; margin-top: 42px; }
+    .callout { color: #7fa1b4; font-size: 15px; line-height: 1.45; margin-top: 20px; width: 270px; }
+    .stack { width: 740px; height: 530px; margin: 95px 0 0 77px; position: relative; }
+    .layer { position: absolute; height: 67px; display: flex; align-items: center; padding-left: 30px; color: #062030; font-weight: 700; }
+    .layer b { display: inline-block; width: 194px; font-size: 20px; }
+    .layer span { font-weight: 500; font-size: 16px; max-width: 410px; line-height: 1.28; }
+    .l1 { top: 0; left: 0; width: 545px; background: #67e2eb; }
+    .l2 { top: 78px; left: 45px; width: 580px; background: #53cddd; }
+    .l3 { top: 156px; left: 90px; width: 610px; background: #40b4c9; }
+    .l4 { top: 234px; left: 135px; width: 640px; background: #2d96b1; color: #f0fbff; }
+    .l5 { top: 312px; left: 180px; width: 665px; background: #1e728f; color: #f0fbff; }
+    .l6 { top: 390px; left: 225px; width: 690px; background: #155d79; color: #f0fbff; }
+    .tag { position: absolute; right: 0; top: 30px; color: #f0c770; font-size: 15px; letter-spacing: 1.4px; }
+    .source { position: absolute; left: 82px; bottom: 35px; color: #7f9cae; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="intro">
+      <div class="kicker">FEATURE EVOLUTION</div>
+      <h1>The Visual Stack Expanded Layer by Layer</h1>
+      <p class="thesis"><strong>Core PBR remained the foundation.</strong> Each release family added a new visual system around it.</p>
+      <div class="small-rule"></div>
+      <p class="callout">Later releases concentrated on believable water, readable sky, and a distinct underwater identity instead of merely increasing texture resolution.</p>
+    </section>
+    <section class="stack">
+      <div class="tag">EARLY → FINAL</div>
+      <div class="layer l1"><b>PBR materials</b><span>Block material structure and direct resource overrides.</span></div>
+      <div class="layer l2"><b>HD detail</b><span>Expanded blocks, items, tools, and armor treatments.</span></div>
+      <div class="layer l3"><b>Atmosphere</b><span>Luminous Dreams lighting, fog, aurora, and night response.</span></div>
+      <div class="layer l4"><b>Natural effects</b><span>Weather audio, leaves, wind dust, fireflies, and companion logic.</span></div>
+      <div class="layer l5"><b>Water & sky</b><span>Caustics, reflective-water tuning, soft clouds, and controlled sun glow.</span></div>
+      <div class="layer l6"><b>Underwater identity</b><span>Spectral color, sunbeams, bioluminescence, dust motes, and ambience.</span></div>
+    </section>
+    <div class="source">Source: LumenCraft release families documented in RELEASE_NOTES.md</div>
+  </div>
+</body>
+</html>
