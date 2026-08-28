@@ -1,4 +1,23 @@
-# LumenCraft Bedrock — Android High-Compatible
+# LumenCraft Bedrock
+
+> **An original Minecraft Bedrock resource-pack project with Android performance profiles, PBR materials, atmosphere, weather, audio, particles, and a companion behaviour pack.**
+
+| Project lens | Details |
+| --- | --- |
+| **Type** | Minecraft Bedrock resource pack |
+| **Stack** | Bedrock resource and behaviour packs |
+| **Status** | Actively maintained |
+
+## Overview
+
+An original Minecraft Bedrock resource-pack project with Android performance profiles, PBR materials, atmosphere, weather, audio, particles, and a companion behaviour pack. This README keeps the project’s verified setup, usage, privacy, and implementation notes together in one place.
+
+## Repository Snapshot
+
+The top-level workspace currently includes `README.md`, `RELEASE_NOTES.md`, `companion/`, `installers/`, `pack/`, `presentations/`, `releases/`, `tools/`. Review the project-specific sections below before installing dependencies, supplying configuration values, or running a build.
+
+
+---
 
 LumenCraft is an original Minecraft Bedrock resource-pack project with selectable Android performance profiles, PBR materials, luminous atmosphere, water caustics, weather, custom audio, particles, aurora effects, and a companion Script API behavior pack.
 
